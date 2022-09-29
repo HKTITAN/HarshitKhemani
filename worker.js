@@ -9,7 +9,7 @@
    * The value on the right is the Notion page ID
    */
   const SLUG_TO_PAGE = {
-    '': '6e4a2b0a51c44acdae81c0615ffd9772',
+    '': '5fc66be3bd1141ea984f5a929d816713',
   };
   
   /* Step 3: enter your page title and description for SEO purposes */
@@ -21,7 +21,9 @@
   
   /* Step 5: enter any custom scripts you'd like */
   const CUSTOM_SCRIPT = `<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="harshitkhemani" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>`;
-  
+  const CUSTOM_STYLE = `.notion-toggle.bg-brown { 
+    display: none !important; 
+  }`
   /* CONFIGURATION ENDS HERE */
   
   const PAGE_TO_SLUG = {};
